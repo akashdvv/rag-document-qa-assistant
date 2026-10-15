@@ -1,0 +1,30 @@
+{"question": "What is the maximum recommended line length for Python code?", "expected_doc": "PEP 8"}
+{"question": "Should I use spaces or tabs to indent my code?", "expected_doc": "PEP 8"}
+{"question": "How should module-level constants be named?", "expected_doc": "PEP 8"}
+{"question": "What does the guideline 'errors should never pass silently' come from?", "expected_doc": "PEP 20"}
+{"question": "How should a one-line docstring be formatted?", "expected_doc": "PEP 257"}
+{"question": "What happens to an exception raised inside a block managed by a context manager?", "expected_doc": "PEP 343"}
+{"question": "How can a generator hand off part of its work to another generator?", "expected_doc": "PEP 380"}
+{"question": "Are type annotations checked by the Python interpreter at runtime?", "expected_doc": "PEP 484"}
+{"question": "Why were native coroutines given their own async def syntax instead of reusing generators?", "expected_doc": "PEP 492"}
+{"question": "How do you embed expressions directly inside string literals?", "expected_doc": "PEP 498"}
+{"question": "How can I annotate the type of a class attribute without assigning a value?", "expected_doc": "PEP 526"}
+{"question": "How can a type checker accept any object that has the right methods without explicit inheritance?", "expected_doc": "PEP 544"}
+{"question": "Which methods are generated automatically for a class decorated to hold data fields?", "expected_doc": "PEP 557"}
+{"question": "Why should annotations be stored as strings instead of being evaluated when a function is defined?", "expected_doc": "PEP 563"}
+{"question": "Why was the walrus operator added to Python?", "expected_doc": "PEP 572"}
+{"question": "Can I write list[int] instead of importing List from the typing module?", "expected_doc": "PEP 585"}
+{"question": "Is there a shorter way to write Union[int, str]?", "expected_doc": "PEP 604"}
+{"question": "How do I type a decorator that preserves the parameters of the function it wraps?", "expected_doc": "PEP 612"}
+{"question": "Is there a built-in way to remove a known prefix from a string?", "expected_doc": "PEP 616"}
+{"question": "How do I make zip raise an error when iterables have different lengths?", "expected_doc": "PEP 618"}
+{"question": "What kinds of patterns can be used in a match statement case clause?", "expected_doc": "PEP 634"}
+{"question": "Can you show a beginner-friendly example of matching on the shape of a command?", "expected_doc": "PEP 636"}
+{"question": "How can a generic class accept an arbitrary number of type parameters, like array shapes?", "expected_doc": "PEP 646"}
+{"question": "How can I handle several unrelated exceptions raised at the same time by concurrent tasks?", "expected_doc": "PEP 654"}
+{"question": "How do I annotate a method that returns an instance of its own class?", "expected_doc": "PEP 673"}
+{"question": "How can a type checker help prevent SQL injection from untrusted strings?", "expected_doc": "PEP 675"}
+{"question": "What is the new syntax for declaring type parameters directly on a function or class?", "expected_doc": "PEP 695"}
+{"question": "Why can you now reuse the same kind of quotes inside an f-string?", "expected_doc": "PEP 701"}
+{"question": "How will CPython run Python threads in parallel without the global interpreter lock?", "expected_doc": "PEP 703"}
+{"question": "What interface must a Python web application expose so any server can run it?", "expected_doc": "PEP 3333"}
